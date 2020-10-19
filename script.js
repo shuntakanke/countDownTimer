@@ -23,7 +23,7 @@ function countDown() {
   minsEl.innerHTML = mins;
   secondsEl.innerHTML = seconds;
 
-  let titleview =`${days}d ${hours}h ${mins}m ${seconds}s`
+  let titleview =`${days}d ${hours}h ${mins}m ${seconds}s`;
 
   titleEl.innerHTML = titleview;
 }
